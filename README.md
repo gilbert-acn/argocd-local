@@ -33,3 +33,11 @@ kubectl port-forward -n argocd svc/argocd-server 8080:443
 # for https://localhost:8080/
 argocd admin initial-password -n argocd
 ```
+
+### Create an application on Argo CD
+
+Follow [step 6](https://argo-cd.readthedocs.io/en/stable/getting_started/#6-create-an-application-from-a-git-repository) or use application from another repository
+
+### Deploy an application on Argo CD
+
+Follow [step 7](https://argo-cd.readthedocs.io/en/stable/getting_started/#7-sync-deploy-the-application)
