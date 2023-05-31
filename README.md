@@ -10,8 +10,9 @@
 
 ## Steps
 
-
 ### Setup Kubernetes cluster
+
+Use single node cluster unless requiring other deployment strategy (e.g., rolling updates)
 
 ```sh
 kind create cluster --config cluster.yaml
