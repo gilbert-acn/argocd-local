@@ -42,3 +42,18 @@ Follow [step 6](https://argo-cd.readthedocs.io/en/stable/getting_started/#6-crea
 ### Deploy an application on Argo CD
 
 Follow [step 7](https://argo-cd.readthedocs.io/en/stable/getting_started/#7-sync-deploy-the-application)
+
+## Others
+
+### No Docker Desktop (macOS)
+
+Requires [Lima](https://lima-vm.io/)
+
+```sh
+limactl start --name=lima-default template://docker
+
+docker context create lima-default \
+  --docker "host=unix://$HOME/.lima/docker/sock/docker.sock"
+
+docker context use lima-default
+```
