@@ -59,3 +59,8 @@ docker context create lima-default \
 
 docker context use lima-default
 ```
+
+### TODO?
+
+- [ ] support Kubernetes version in clsuter configuration 
+- [ ] introduce Makefile to simplify the steps
