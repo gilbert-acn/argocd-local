@@ -39,6 +39,8 @@ argocd admin initial-password -n argocd
 
 Follow [step 6](https://argo-cd.readthedocs.io/en/stable/getting_started/#6-create-an-application-from-a-git-repository) or use application from another repository
 
+NB: It's [recommended](https://argo-cd.readthedocs.io/en/stable/user-guide/best_practices/#separating-config-vs-source-code-repositories) to separate config and source code repositories.
+
 ### Deploy an application on Argo CD
 
 Follow [step 7](https://argo-cd.readthedocs.io/en/stable/getting_started/#7-sync-deploy-the-application)
